@@ -1,0 +1,22 @@
+{
+  "name": "plesk/ext-elm-example",
+  "description": "The Elm Plesk Extension example",
+  "type": "project",
+  "license": "proprietary",
+  "authors": [
+      {
+          "name": "Stanislav Smirnov",
+          "email": "ssmirnov@plesk.com"
+      }
+  ],
+  "require": {},
+  "config": {
+    "vendor-dir": "src/plib/vendor"
+  },
+  "scripts": {
+    "build": "yarn run elm make src/frontend/Main.elm --output=src/htdocs/js/main.js"
+  },
+  "require-dev": {
+    "plesk/pm-api-stubs": "17.8.*"
+  }
+}
