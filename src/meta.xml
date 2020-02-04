@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <module>
-  <id>dec2018</id>
-  <name>The module dec2018</name>
-  <description>Add module description here...</description>
+  <id>elm-example</id>
+  <name>The Plesk Elm example module</name>
+  <description>The module to demo using Elm in Plesk extensions</description>
   <version>1.0</version>
   <release>1</release>
   <vendor/>
-  <url>http://your-company-web-site</url>
+  <url>http://plesk.com/url>
   <plesk_min_version>17.8.11</plesk_min_version>
 </module>
